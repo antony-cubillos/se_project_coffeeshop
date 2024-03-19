@@ -21,7 +21,8 @@
     />
   </head>
   <body>
-    <header class="header">
+    <div class="page">
+      <header class="header">
       <nav class="nav">
         <img
           src="./images/logo_coffeeshop_dark.svg"
@@ -29,10 +30,10 @@
           class="nav__logo"
         />
         <ul class="nav__links">
-          <li><a href="#Recipes" class="nav_link">Recipes</a></li>
-          <li><a href="" class="nav_link">Book a table</a></li>
-          <li><a href="" class="nav_link">Menu</a></li>
-          <li><a href="" class="nav_link">Contacts</a></li>
+          <li><a href="#Recipes" class="nav__link">Recipes</a></li>
+          <li><a href="" class="nav__link">Book a table</a></li>
+          <li><a href="" class="nav__link">Menu</a></li>
+          <li><a href="" class="nav__link">Contacts</a></li>
         </ul>
       </nav>
       <h1 class="header__title">
@@ -67,7 +68,7 @@
           convenience:
         </p>
         <div class="recipes__videos">
-          <div>
+          <div class="recipes__video">
             <iframe
               src="https://www.youtube.com/embed/j6VlT_jUVPc?si=COrhbwxeyOoE4MNG"
               title="YouTube video player"
@@ -80,7 +81,7 @@
               <span>Aeropress recipe</span>~5 min
             </p>
           </div>
-          <div>
+          <div class="recipes__video">
             <iframe
               src="https://www.youtube.com/embed/st571DYYTR8?si=cmT7h87xe1K89q3l"
               title="YouTube video player"
@@ -100,5 +101,5 @@
       <section class="about"></section>
     </main>
     <footer class="footer"></footer>
-  </body>
+  </div>
 </html>
