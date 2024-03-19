@@ -145,10 +145,8 @@
   margin: 24px 0 0;
 }
 
-.video {
-}
-
-.video__iframe {
+.recipes__iframe {
   width: 480px;
   height: 273px;
+  border: none;
 }
